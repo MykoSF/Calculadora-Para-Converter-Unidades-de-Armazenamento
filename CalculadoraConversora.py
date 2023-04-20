@@ -73,3 +73,66 @@ def ByteToBit(valorASerConvertido):
     print('Valor convertido de byte para bit')
     BitCalculadoMultiplicar = valorASerConvertido * 8
     return BitCalculadoMultiplicar
+
+
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = BitToByte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = ByteToKilobyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = KilobyteToMegabyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = MegabyteToGigabyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = GigabyteToTerabyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = TerabyteToPetabyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = PetabyteToTerabyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = TerabyteToGigabyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = GigabyteToMegabyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = MegabyteToKilobyte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = KilobyteToByte(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
+
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido = converterStringParaFloat(input())
+valorConvertido = ByteToBit(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
